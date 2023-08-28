@@ -3,8 +3,8 @@ using UnityEngine;
 using UnityEngine.Rendering;
 
 [Serializable]
-[VolumeComponentMenu("Example Effect")]
-public class FlareParaVolume : VolumeComponent // VolumeComponentÇåpè≥Ç∑ÇÈ
+[VolumeComponentMenu("Flare & Para")]
+public class FlareParaVolume : VolumeComponent
 {
 
     public BoolParameter isActive = new BoolParameter(true);
